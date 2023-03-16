@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Stick+No+Bills:wght@200&display=swap');
 body {
     margin: 0;
-    background-image: url("Images/Backround1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #124d54;
    }
 header {
     size: 20px;
     overflow: hidden;
     padding: 0px 0px;
-    background-image: url("Images/Backround2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #102937;
     
-
 }
 .title
 {
@@ -57,6 +50,16 @@ li.LinkStyle
     border-radius: 10px;
     padding: 5px;
 }
+li.LinkStyle-A
+{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 30px;
+    margin-right: 50px;
+    float:left;
+    background-color: #176acf;
+    border-radius: 10px;
+    padding: 5px;
+}
 a:visited
 {
     color: black;
@@ -71,4 +74,8 @@ a:visited
 a:hover
 {
     color:darkcyan;
+}
+.Text
+{
+    font-family: 'Poppins', sans-serif ;
 }
