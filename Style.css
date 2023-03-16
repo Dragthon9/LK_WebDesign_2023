@@ -79,3 +79,9 @@ a:hover
 {
     font-family: 'Poppins', sans-serif ;
 }
+.TextBackground
+{
+   background-color: #094044;
+   padding: 25px;
+   border-radius: 20px;
+}
